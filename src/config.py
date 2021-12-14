@@ -1,0 +1,10 @@
+START_TAG = "<START>"
+STOP_TAG = "<STOP>"
+EMBEDDING_DIM = 5 
+HIDDEN_DIM = 4
+TRAINING_FILE = "../input/ner_dataset.csv"
+MODEL_PATH = "../output/model.bin"
+MAX_LEN = 128
+TRAIN_BATCH_SIZE = 8
+VALID_BATCH_SIZE = 8
+EPOCHS = 2
